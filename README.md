@@ -1,3 +1,3 @@
 # LuaPay
-Official client for LBC/LBN
+Official Client for LBC/LBN
  
