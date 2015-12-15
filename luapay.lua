@@ -1,0 +1,8 @@
+local me = fs.open("kristwallet","w")
+print("Downloading payment solution...")
+local kristwallet = http.get("https://raw.githubusercontent.com/BTCTaras/kristwallet/master/kristwallet").readAll()
+me.write(kristwallet)
+me.close()
+print("Done!")
+os.sleep(0.1)
+shell.run("kristwallet")
